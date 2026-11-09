@@ -1,0 +1,32 @@
+[project]
+name = "rag-security-research"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "ver1619", email = "swmvernekar2005@gmail.com" }
+]
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "beir>=2.2.0",
+    "datasets>=5.1.0",
+    "openai>=3.46.0",
+    "pandas>=3.1.1",
+    "python-dotenv>=1.2.4",
+    "pyyaml>=6.0.3",
+    "requests>=2.31.0",
+    "sentence-transformers>=3.0.0",
+]
+
+[project.scripts]
+rag-security-research = "rag_security_research:main"
+
+[build-system]
+requires = ["uv_build>=0.12.18,<0.13.0"]
+build-backend = "uv_build"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"*" = ["*.yaml"]

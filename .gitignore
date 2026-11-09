@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Raw datasets
+data/raw/
+
+# Vector databases and indexes
+indexes/
+chroma_db/
+
+# IDE
+.idea/
+.vscode/
