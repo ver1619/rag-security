@@ -74,7 +74,7 @@ These results measure agreement with the available human labels; they do not est
 ---
 
 > [!NOTE]
->  [Data Preparation And Context Evaluation Report](./notes/Data_Preparation_And_Contextual_Evaluation.md).
+> Detailed Walkthrough: [Data Preparation And Context Evaluation Report](./notes/Data_Preparation_And_Contextual_Evaluation.md).
 
 ---
 
