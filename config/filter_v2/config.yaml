@@ -1,0 +1,306 @@
+# ============================================================
+# RAG SECURITY RESEARCH PROJECT
+# Security-Aware Context Screening and Evidence Selection
+# ============================================================
+
+project:
+  name: "Security-Aware Context Screening and Evidence Selection for RAG Systems"
+  description: "Defending Against Indirect Prompt Injection and Knowledge Poisoning"
+  stage: "filter_v2"
+  random_seed: 42
+
+# ============================================================
+# PATH CONFIGURATION
+# All paths are relative to the project root.
+# ============================================================
+
+paths:
+  data:
+    raw: "data/raw"
+    processed: "data/processed"
+
+  datasets:
+    beir_nq:
+      corpus: "data/raw/beir_nq/corpus.jsonl"
+      queries: "data/raw/beir_nq/queries.jsonl"
+      qrels: "data/raw/beir_nq/qrels/test.tsv"
+
+    nq_open:
+      validation: "data/raw/nq_open/validation.jsonl"
+
+  filter_v2:
+    questions: "data/processed/filter_v2/dataset/filter_v2_questions.jsonl"
+    pairs: "data/processed/filter_v2/dataset/filter_v2_pairs.jsonl"
+    dataset_statistics: "data/processed/filter_v2/dataset/dataset_statistics.json"
+
+    deterministic_results: "data/processed/filter_v2/matching/results/deterministic_match_results.jsonl"
+    deterministic_statistics: "data/processed/filter_v2/matching/statistics/deterministic_match_statistics.json"
+
+    manual_audit: "data/processed/filter_v2/manual_audit"
+
+  shared:
+    matched_questions: "data/processed/shared/matched_questions.json"
+    matching_statistics: "data/processed/shared/matching_statistics.json"
+    benchmark:
+      dir: "data/processed/shared/benchmark"
+      dev_questions: "data/processed/shared/benchmark/dev_questions.jsonl"
+      test_questions: "data/processed/shared/benchmark/test_questions.jsonl"
+      split_metadata: "data/processed/shared/benchmark/split_metadata.json"
+
+  filter_v1:
+    results: "data/processed/filter_v1/results"
+    answer_supported_questions: "data/processed/filter_v1/results/answer_supported_questions.json"
+    answer_support_statistics: "data/processed/filter_v1/results/answer_support_statistics.json"
+
+  baseline:
+    dataset: "data/processed/baseline/dataset"
+    knowledge_base: "data/processed/baseline/knowledge_base"
+    indexes: "indexes/baseline"
+    results:
+      dev: "results/baseline/dev"
+      test: "results/baseline/test"
+      summaries: "results/baseline/summaries"
+
+  results: "results"
+  indexes: "indexes"
+
+# ============================================================
+# DATASET CONFIGURATION
+# ============================================================
+
+dataset:
+  name: "BEIR Natural Questions + NQ Open"
+
+  question_count: 2255
+
+  answer_source: "NQ Open"
+  retrieval_source: "BEIR Natural Questions"
+
+  use_positive_qrels_only: true
+  preserve_original_qrels: true
+
+  stream_corpus: true
+
+  # Do not load the entire BEIR corpus into memory.
+  retain_only_relevant_passages: true
+
+# ============================================================
+# REPRODUCIBILITY
+# ============================================================
+
+reproducibility:
+  seed: 42
+  deterministic_execution: true
+  save_per_question_results: true
+  save_model_metadata: true
+  preserve_original_outputs: true
+
+# ============================================================
+# RETRIEVAL CONFIGURATION
+# Used by the broader RAG pipeline.
+# ============================================================
+
+retrieval:
+  top_k: 5
+
+  embedding:
+    provider: "sentence-transformers"
+    model: "BAAI/bge-small-en-v1.5"
+
+  vector_database:
+    provider: "chroma"
+    persist_directory: "indexes/chroma"
+
+# ============================================================
+# FILTER V2 CONFIGURATION
+# ============================================================
+
+filter_v2:
+
+  # ----------------------------------------------------------
+  # Deterministic Answer Matcher
+  # ----------------------------------------------------------
+
+  matcher:
+    enabled: true
+
+    # Evidence matching is body-only.
+    search_title: false
+    search_body: true
+
+    case_insensitive: true
+    unicode_normalization: "NFKC"
+    normalize_punctuation: true
+    normalize_whitespace: true
+    enforce_token_boundaries: true
+
+    preserve_original_offsets: true
+    preserve_original_passage: true
+
+  # ----------------------------------------------------------
+  # Contextual LLM Judge
+  # ----------------------------------------------------------
+
+  judge:
+    enabled: true
+
+    # Change both provider and model here.
+    provider: "groq"
+    model: "openai/gpt-oss-20b"
+
+    # Provider-specific environment variable.
+    api_key_env: "GROQ_API_KEY"
+
+    # Groq endpoint. Ollama uses http://localhost:11434/v1.
+    base_url: "https://api.groq.com/openai/v1"
+
+    temperature: 0
+    timeout: 60
+    response_format: "json"
+
+    # Prompt version must match prompt.py.
+    prompt_version: "filter_v2_judge_v2"
+
+    # Retries for invalid LLM responses.
+    max_retries: 1
+
+    # Retries for temporary API errors, independently.
+    api_retry:
+      max_retries: 3
+      initial_delay_seconds: 5
+      max_delay_seconds: 60
+      backoff_multiplier: 2
+
+    # Minimum interval between API requests.
+    request_pacing:
+      enabled: true
+      min_interval_seconds: 2
+
+    # --------------------------------------------------------
+    # Allowed classifications
+    # --------------------------------------------------------
+
+    allowed_classifications:
+      - "direct_support"
+      - "semantic_support"
+      - "partial_support"
+      - "incidental_match"
+      - "contradictory"
+      - "no_support"
+      - "ambiguous"
+
+    # --------------------------------------------------------
+    # Response validation
+    # --------------------------------------------------------
+
+    validation:
+      strict_json: true
+      require_all_fields: true
+      reject_extra_fields: true
+      require_exact_evidence_quote: true
+      require_non_empty_rationale: true
+
+    # --------------------------------------------------------
+    # Failure handling
+    # --------------------------------------------------------
+
+    failure_handling:
+      invalid_response: "retry"
+      persistent_failure: "review_required"
+
+# ============================================================
+# QUESTION-LEVEL OUTCOME CONFIGURATION
+# ============================================================
+
+classification:
+  accepted:
+    - "direct_support"
+    - "semantic_support"
+
+  review_required:
+    - "partial_support"
+    - "ambiguous"
+
+  rejected:
+    - "incidental_match"
+    - "contradictory"
+    - "no_support"
+
+  # Final question-level aggregation must also account for
+  # mixed pair outcomes and unresolved evaluation failures.
+  unresolved_evaluation: "review_required"
+
+# ============================================================
+# EXPERIMENT CONFIGURATION
+# ============================================================
+
+experiments:
+
+  E1:
+    name: "Filter V1 - Exact Answer Containment"
+    enabled: true
+    method: "deterministic_exact_matching"
+
+  E2:
+    name: "Filter V2 - Deterministic Matching"
+    enabled: true
+    method: "deterministic_matching"
+
+  E3:
+    name: "Filter V2 - Hybrid Contextual Evaluation"
+    enabled: true
+    method: "deterministic_matching_and_llm_judging"
+
+# ============================================================
+# EVALUATION CONFIGURATION
+# ============================================================
+
+evaluation:
+
+  pair_level:
+    metrics:
+      - "precision"
+      - "recall"
+      - "f1"
+      - "classification_consistency"
+      - "evidence_quote_validity"
+
+  question_level:
+    metrics:
+      - "precision"
+      - "recall"
+      - "f1"
+      - "automated_coverage"
+      - "review_rate"
+
+  additional_metrics:
+    - "incidental_match_rate"
+    - "missed_valid_evidence_rate"
+    - "llm_human_agreement"
+    - "invalid_output_rate"
+    - "average_latency"
+    - "estimated_api_cost"
+
+# ============================================================
+# OUTPUT CONFIGURATION
+# ============================================================
+
+output:
+
+  format:
+    - "jsonl"
+    - "csv"
+    - "json"
+
+  save_raw_llm_responses: true
+  save_validated_responses: true
+  save_evidence_quotes: true
+  save_rationales: true
+  save_token_usage: true
+  save_latency: true
+  save_error_logs: true
+
+  results_directory: "results"
+
+  # Avoid overwriting previous experimental results.
+  preserve_previous_runs: true
