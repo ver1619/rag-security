@@ -73,12 +73,12 @@ These results measure agreement with the available human labels; they do not est
 
 ---
 
-> [!READ]
+> [!NOTE]
 >  [Data Preparation And Context Evaluation Report](./notes/Data_Preparation_And_Contextual_Evaluation.md).
 
 ---
 
-## Technology Stack
+## Stack
 
 - Python
 - BEIR Natural Questions
