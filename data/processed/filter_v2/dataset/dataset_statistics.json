@@ -1,0 +1,21 @@
+{
+  "matched_question_count": 2255,
+  "questions_with_positive_qrels": 2255,
+  "questions_without_positive_qrels": 0,
+  "unique_relevant_passage_ids": 2816,
+  "available_passage_count": 2816,
+  "missing_question_ids": [],
+  "missing_passage_ids": [],
+  "answer_variant_count": 3916,
+  "evaluation_pair_count": 5079,
+  "duplicate_question_ids": [],
+  "qrels": {
+    "total_qrels_rows": 4201,
+    "positive_qrels_rows": 4201,
+    "duplicate_qrels_pairs": 0
+  },
+  "corpus": {
+    "corpus_records_read": 2681468,
+    "duplicate_corpus_ids": 0
+  }
+}

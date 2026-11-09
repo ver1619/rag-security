@@ -1,0 +1,10 @@
+{
+  "seed": 42,
+  "total_audit_records": 50,
+  "sample_sizes": {
+    "random_matched": 20,
+    "unmatched": 20,
+    "title_only": 10
+  },
+  "unique_pair_ids": 50
+}

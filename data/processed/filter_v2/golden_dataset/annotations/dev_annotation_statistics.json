@@ -1,0 +1,80 @@
+{
+    "dataset": "Filter v2 DEV annotations",
+    "dataset_overview": {
+        "total_pairs": 97,
+        "unique_questions": 50,
+        "unique_pair_ids": 97,
+        "duplicate_pair_ids": []
+    },
+    "llm_classification": {
+        "distribution": {
+            "contradictory": 1,
+            "direct_support": 54,
+            "incidental_match": 1,
+            "no_support": 5,
+            "partial_support": 22,
+            "semantic_support": 14
+        },
+        "invalid_labels": []
+    },
+    "human_final_classification": {
+        "distribution": {
+            "contradictory": 1,
+            "direct_support": 54,
+            "incidental_match": 2,
+            "no_support": 6,
+            "partial_support": 20,
+            "semantic_support": 14
+        },
+        "invalid_labels": []
+    },
+    "llm_human_agreement": {
+        "agreements": 95,
+        "disagreements": 2,
+        "comparable_records": 97,
+        "agreement_percentage": 97.94,
+        "missing_stored_flags": 0,
+        "inconsistent_stored_flags": []
+    },
+    "confidence": {
+        "distribution": {
+            "high": 66,
+            "low": 6,
+            "medium": 25
+        },
+        "invalid_values": []
+    },
+    "evidence_quote_validation": {
+        "valid_exact_quotes": 96,
+        "invalid_quotes": 0,
+        "empty_or_null_quotes": 1,
+        "total_quotes_checked": 97,
+        "invalid_quote_pair_ids": []
+    },
+    "data_integrity": {
+        "records_with_missing_required_fields": 0,
+        "missing_field_counts": {
+            "answer_variant": 0,
+            "beir_query_id": 0,
+            "classification": 0,
+            "final_label": 0,
+            "pair_id": 0,
+            "passage_id": 0,
+            "passage_text": 0,
+            "question": 0,
+            "rationale": 0
+        },
+        "duplicate_pair_ids": []
+    },
+    "question_level_analysis": {
+        "pairs_per_question_distribution": {
+            "1": 25,
+            "2": 18,
+            "3": 1,
+            "4": 3,
+            "6": 2,
+            "9": 1
+        },
+        "questions_with_multiple_final_labels": 13
+    }
+}

@@ -1,0 +1,12 @@
+{
+  "total_pairs": 5079,
+  "matched_pairs": 4007,
+  "unmatched_pairs": 1072,
+  "body_only_pairs": 4007,
+  "no_exact_match_pairs": 1072,
+  "total_body_occurrences": 5064,
+  "matching_method_counts": {
+    "body_only": 4007,
+    "no_exact_match": 1072
+  }
+}
