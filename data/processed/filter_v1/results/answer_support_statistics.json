@@ -1,0 +1,8 @@
+{
+  "matched_questions": 2255,
+  "questions_with_qrels": 2255,
+  "answer_supported_questions": 2214,
+  "questions_without_answer_support": 41,
+  "missing_corpus_passages": 0,
+  "matching_method": "normalized_exact_answer_containment"
+}

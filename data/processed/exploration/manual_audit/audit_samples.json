@@ -1,0 +1,1767 @@
+[
+  {
+    "beir_query_id": "test1141",
+    "question": "when was the last time ny rangers won stanley cup",
+    "answers": [
+      "1993–94"
+    ],
+    "sampling_groups": [
+      "rejected"
+    ],
+    "automated_filter_result": "rejected",
+    "relevant_passage_ids": [
+      "doc40456"
+    ],
+    "evidence_passages": [
+      {
+        "passage_id": "doc40456",
+        "title": "New York Rangers",
+        "text": "The New York Rangers are a professional ice hockey team based in New York City. They are members of the Metropolitan Division of the Eastern Conference of the National Hockey League (NHL). The team plays its home games at Madison Square Garden, located in the borough of Manhattan. The Rangers are one of three NHL franchises in the New York metropolitan area, along with the New Jersey Devils and New York Islanders. The club is also one of the oldest teams in the NHL, having joined in 1926 as an expansion franchise. They are part of the group of teams referred to as the Original Six, along with the Boston Bruins, Chicago Blackhawks, Detroit Red Wings, Montreal Canadiens and Toronto Maple Leafs. The Rangers were the first NHL franchise in the United States to win the Stanley Cup,[3] which they have done four times, most recently in 1993â€“94.[4]"
+      }
+    ],
+    "manual_judgment": "",
+    "audit_notes": ""
+  },
+  {
+    "beir_query_id": "test1203",
+    "question": "where did the river thames start and end",
+    "answers": [
+      "Thames Estuary, North Sea"
+    ],
+    "sampling_groups": [
+      "rejected"
+    ],
+    "automated_filter_result": "rejected",
+    "relevant_passage_ids": [
+      "doc42798"
+    ],
+    "evidence_passages": [
+      {
+        "passage_id": "doc42798",
+        "title": "River Thames",
+        "text": "The River Thames (/tɛmz/ ( listen) TEMZ) is a river that flows through southern England, most notably through London. At 215 miles (346 km), it is the longest river entirely in England and the second longest in the United Kingdom, after the River Severn. It also flows through Oxford (where it is called Isis), Reading, Henley-on-Thames and Windsor. The lower reaches of the river are called the Tideway, derived from its long tidal reach up to Teddington Lock. It rises at Thames Head in Gloucestershire, and flows into the North Sea via the Thames Estuary. The Thames drains the whole of Greater London.[1]"
+      }
+    ],
+    "manual_judgment": "",
+    "audit_notes": ""
+  },
+  {
+    "beir_query_id": "test1207",
+    "question": "suffix applied to the end of the name of enzymes",
+    "answers": [
+      "-ase"
+    ],
+    "sampling_groups": [
+      "short_answer"
+    ],
+    "automated_filter_result": "accepted",
+    "relevant_passage_ids": [
+      "doc43101"
+    ],
+    "evidence_passages": [
+      {
+        "passage_id": "doc43101",
+        "title": "-ase",
+        "text": "The suffix -ase is used in biochemistry to form names of enzymes. The most common way to name enzymes is to add this suffix onto the end of the substrate, e.g. an enzyme that breaks down peroxides may be called peroxidase; the enzyme that produces telomeres is called telomerase. Sometimes enzymes are named for the function they perform, rather than substrate, e.g. the enzyme that polymerizes (assembles) DNA into strands is called polymerase; see also reverse transcriptase."
+      }
+    ],
+    "manual_judgment": "",
+    "audit_notes": ""
+  },
+  {
+    "beir_query_id": "test1222",
+    "question": "who won season 5 of hell's kitchen",
+    "answers": [
+      "Executive Chef Danny Veltri",
+      "Danny Veltri"
+    ],
+    "sampling_groups": [
+      "random_accepted"
+    ],
+    "automated_filter_result": "accepted",
+    "relevant_passage_ids": [
+      "doc43497"
+    ],
+    "evidence_passages": [
+      {
+        "passage_id": "doc43497",
+        "title": "Hell's Kitchen (U.S. season 5)",
+        "text": "Executive Chef Danny Veltri won the series and was awarded a sous chef position under Stephen Kalt at Italian restaurant Fornelletto at the Borgata in Atlantic City, New Jersey. Danny also received $250,000 in prize money from the show.[1]"
+      }
+    ],
+    "manual_judgment": "",
+    "audit_notes": ""
+  },
+  {
+    "beir_query_id": "test1263",
+    "question": "who was the aztec ruler when the spanish arrived",
+    "answers": [
+      "Moctezuma II",
+      "emperor Cuauhtemoc"
+    ],
+    "sampling_groups": [
+      "multiple_answers"
+    ],
+    "automated_filter_result": "accepted",
+    "relevant_passage_ids": [
+      "doc44660",
+      "doc44661"
+    ],
+    "evidence_passages": [
+      {
+        "passage_id": "doc44660",
+        "title": "Spanish conquest of the Aztec Empire",
+        "text": "The Spanish campaign began in February 1519, following the Spanish arrival in Yucatán in 1517. Two years later the Spanish set sail, thus beginning the campaign of colonization of the Americas.[3] The Spanish campaign declared victorious on August 13, 1521, when a coalition army of Spanish forces and native Tlaxcalan warriors led by Hernán Cortés and Xicotencatl the Younger captured the emperor Cuauhtemoc and Tenochtitlan, the capital of the Aztec Empire."
+      },
+      {
+        "passage_id": "doc44661",
+        "title": "Spanish conquest of the Aztec Empire",
+        "text": "During the campaign, Cortés was given support from a number of tributaries and rivals of the Aztecs, including the Totonacs, and the Tlaxcaltecas, Texcocans, and other city-states particularly bordering Lake Texcoco. In their advance, the allies were tricked and ambushed several times by the people they encountered. After eight months of battles and negotiations, which overcame the diplomatic resistance of the Aztec Emperor Moctezuma II to his visit, Cortés arrived in Tenochtitlan on November 8, 1519, where he took up residence, welcomed by Moctezuma. When news reached Cortés of the death of several of his men during the Aztec attack on the Totonacs in Veracruz, he took the opportunity to take Moctezuma captive, Moctezuma allowed himself to be captured as a diplomatic gesture. Capturing the cacique or indigenous ruler was standard operating procedure for Spaniards in their expansion in the Caribbean, so capturing Moctezuma had considerable precedent, which might well have included those in Spain during the Christian reconquest of territory held by Muslims.[4]"
+      }
+    ],
+    "manual_judgment": "",
+    "audit_notes": ""
+  },
+  {
+    "beir_query_id": "test1274",
+    "question": "name the four major layers of the earth in order",
+    "answers": [
+      "a liquid outer core",
+      "an outer silicate solid crust",
+      "a highly viscous mantle",
+      "a solid inner core"
+    ],
+    "sampling_groups": [
+      "rejected"
+    ],
+    "automated_filter_result": "rejected",
+    "relevant_passage_ids": [
+      "doc45091"
+    ],
+    "evidence_passages": [
+      {
+        "passage_id": "doc45091",
+        "title": "Structure of the Earth",
+        "text": "The structure of Earth can be defined in two ways: by mechanical properties such as rheology, or chemically. Mechanically, it can be divided into lithosphere, asthenosphere, mesospheric mantle, outer core, and the inner core. Chemically, Earth can be divided into the crust, upper mantle, lower mantle, outer core, and inner core. The geologic component layers of Earth[3][not in citation given] are at the following depths below the surface:"
+      }
+    ],
+    "manual_judgment": "",
+    "audit_notes": ""
+  },
+  {
+    "beir_query_id": "test1335",
+    "question": "first who wants to be a millionaire winner uk",
+    "answers": [
+      "Judith Cynthia Aline Keppel"
+    ],
+    "sampling_groups": [
+      "random_accepted"
+    ],
+    "automated_filter_result": "accepted",
+    "relevant_passage_ids": [
+      "doc47323"
+    ],
+    "evidence_passages": [
+      {
+        "passage_id": "doc47323",
+        "title": "Judith Keppel",
+        "text": "Judith Cynthia Aline Keppel (born 18 August 1942)[2] was the first one-million-pound winner on the television game show Who Wants to Be a Millionaire? in the United Kingdom. She is also the only woman in the United Kingdom to have won it and also the first person to win a million pounds or more on a British television game show. She has appeared on the BBC Two quiz show Eggheads since 2003."
+      }
+    ],
+    "manual_judgment": "",
+    "audit_notes": ""
+  },
+  {
+    "beir_query_id": "test1358",
+    "question": "who is responsible for establishing local licensing forum",
+    "answers": [
+      "unitary authorities",
+      "local authorities",
+      "district councils"
+    ],
+    "sampling_groups": [
+      "random_accepted"
+    ],
+    "automated_filter_result": "accepted",
+    "relevant_passage_ids": [
+      "doc47882"
+    ],
+    "evidence_passages": [
+      {
+        "passage_id": "doc47882",
+        "title": "Licensing Act 2003",
+        "text": "The Licensing Act 2003 (c 17) is an Act of the Parliament of the United Kingdom. The Act establishes a single integrated scheme for licensing premises in England and Wales (only) which are used for the sale or supply of alcohol, to provide regulated entertainment, or to provide late night refreshment. Permission to carry on some or all of these licensable activities is now contained in a single licence — the premises licence — replacing several different and complex schemes. Responsibility for issuing licences now rests with local authorities, specifically London boroughs, Metropolitan boroughs, unitary authorities, and district councils, who took over this power from the Justices of the Peace. These authorities are each required to establish a Licensing Committee, which acts in a quasi-judicial capacity under the Act. The powers of the Act came fully into force at midnight at the start of 24 November 2005."
+      }
+    ],
+    "manual_judgment": "",
+    "audit_notes": ""
+  },
+  {
+    "beir_query_id": "test1367",
+    "question": "coldplay song i will try to fix you",
+    "answers": [
+      "\"Fix You\""
+    ],
+    "sampling_groups": [
+      "random_accepted"
+    ],
+    "automated_filter_result": "accepted",
+    "relevant_passage_ids": [
+      "doc48326"
+    ],
+    "evidence_passages": [
+      {
+        "passage_id": "doc48326",
+        "title": "Fix You",
+        "text": "\"Fix You\" is a song by the British rock band Coldplay. It was written by all four members of the band for their third studio album, X&Y (2005). The track is built around an organ accompanied by slow tempo drums and vocals."
+      }
+    ],
+    "manual_judgment": "",
+    "audit_notes": ""
+  },
+  {
+    "beir_query_id": "test1382",
+    "question": "the xix of the social security act of 1965 established",
+    "answers": [
+      "Medicaid"
+    ],
+    "sampling_groups": [
+      "random_accepted"
+    ],
+    "automated_filter_result": "accepted",
+    "relevant_passage_ids": [
+      "doc48999"
+    ],
+    "evidence_passages": [
+      {
+        "passage_id": "doc48999",
+        "title": "Social Security Amendments of 1965",
+        "text": "The legislation made two amendments to the Social Security Act of 1935. Title XVIII, which became known as Medicare, includes Part A, which provides hospital insurance for the aged, and Part B, which provides supplementary medical insurance. Title XIX, which became known as Medicaid, provides for the states to finance health care for individuals who were at or close to the public assistance level with federal matching funds."
+      }
+    ],
+    "manual_judgment": "",
+    "audit_notes": ""
+  },
+  {
+    "beir_query_id": "test140",
+    "question": "do you cut cards to the left or right",
+    "answers": [
+      "right"
+    ],
+    "sampling_groups": [
+      "random_accepted"
+    ],
+    "automated_filter_result": "accepted",
+    "relevant_passage_ids": [
+      "doc5204"
+    ],
+    "evidence_passages": [
+      {
+        "passage_id": "doc5204",
+        "title": "Cut (cards)",
+        "text": "A common procedure is that after the cards have been shuffled, the dealer sets the cards face-down on the table near the player designated to make the cut, typically the player to the dealer's right. That player initiates a cut of the deck by taking a contiguous range of cards off the top of the deck and placing it face-down on the table closer to the dealer; the dealer completes the cut by taking the original bottom portion of the deck and placing it on top of the just-moved cards.[1] Once the cut is complete, the dealer picks up the deck, straightens or \"squares\" it, and deals the cards."
+      }
+    ],
+    "manual_judgment": "",
+    "audit_notes": ""
+  },
+  {
+    "beir_query_id": "test1431",
+    "question": "who ruled the ottoman empire in the 1500s",
+    "answers": [
+      "Selim I"
+    ],
+    "sampling_groups": [
+      "rejected"
+    ],
+    "automated_filter_result": "rejected",
+    "relevant_passage_ids": [
+      "doc50865"
+    ],
+    "evidence_passages": [
+      {
+        "passage_id": "doc50865",
+        "title": "Ottoman Empire",
+        "text": "In the 15th and 16th centuries, the Ottoman Empire entered a period of expansion. The Empire prospered under the rule of a line of committed and effective Sultans. It also flourished economically due to its control of the major overland trade routes between Europe and Asia.[37][dn 6]"
+      }
+    ],
+    "manual_judgment": "",
+    "audit_notes": ""
+  },
+  {
+    "beir_query_id": "test1438",
+    "question": "three act puccini opera first performed in 1900",
+    "answers": [
+      "Tosca"
+    ],
+    "sampling_groups": [
+      "random_accepted"
+    ],
+    "automated_filter_result": "accepted",
+    "relevant_passage_ids": [
+      "doc51071"
+    ],
+    "evidence_passages": [
+      {
+        "passage_id": "doc51071",
+        "title": "Tosca",
+        "text": "Tosca (Italian pronunciation: [ˈtoska; ˈtɔska]) is an opera in three acts by Giacomo Puccini to an Italian libretto by Luigi Illica and Giuseppe Giacosa. It premiered at the Teatro Costanzi in Rome on 14 January 1900. The work, based on Victorien Sardou's 1887 French-language dramatic play, La Tosca, is a melodramatic piece set in Rome in June 1800, with the Kingdom of Naples's control of Rome threatened by Napoleon's invasion of Italy. It contains depictions of torture, murder and suicide, as well as some of Puccini's best-known lyrical arias."
+      }
+    ],
+    "manual_judgment": "",
+    "audit_notes": ""
+  },
+  {
+    "beir_query_id": "test146",
+    "question": "who sings you can't get what you want",
+    "answers": [
+      "the Rolling Stones"
+    ],
+    "sampling_groups": [
+      "random_accepted"
+    ],
+    "automated_filter_result": "accepted",
+    "relevant_passage_ids": [
+      "doc5402"
+    ],
+    "evidence_passages": [
+      {
+        "passage_id": "doc5402",
+        "title": "You Can't Always Get What You Want",
+        "text": "\"You Can't Always Get What You Want\" is a song by the Rolling Stones on their 1969 album Let It Bleed. Written by Mick Jagger and Keith Richards, it was named as the 100th greatest song of all time by Rolling Stone magazine in its 2004 list of the \"500 Greatest Songs of All Time\"."
+      }
+    ],
+    "manual_judgment": "",
+    "audit_notes": ""
+  },
+  {
+    "beir_query_id": "test1528",
+    "question": "who turned out to be the mother on how i met your mother",
+    "answers": [
+      "Tracy McConnell"
+    ],
+    "sampling_groups": [
+      "random_accepted"
+    ],
+    "automated_filter_result": "accepted",
+    "relevant_passage_ids": [
+      "doc54708"
+    ],
+    "evidence_passages": [
+      {
+        "passage_id": "doc54708",
+        "title": "The Mother (How I Met Your Mother)",
+        "text": "Tracy McConnell, better known as \"The Mother\", is the title character from the CBS television sitcom How I Met Your Mother. The show, narrated by Future Ted, tells the story of how Ted Mosby met The Mother. Tracy McConnell appears in 8 episodes from \"Lucky Penny\" to \"The Time Travelers\" as an unseen character; she was first seen fully in \"Something New\" and was promoted to a main character in season 9. The Mother is played by Cristin Milioti."
+      }
+    ],
+    "manual_judgment": "",
+    "audit_notes": ""
+  },
+  {
+    "beir_query_id": "test163",
+    "question": "calpurnia son name in to kill a mockingbird",
+    "answers": [
+      "Zeebo",
+      "James Zeebo"
+    ],
+    "sampling_groups": [
+      "random_accepted"
+    ],
+    "automated_filter_result": "accepted",
+    "relevant_passage_ids": [
+      "doc5946",
+      "doc5979",
+      "doc5995"
+    ],
+    "evidence_passages": [
+      {
+        "passage_id": "doc5946",
+        "title": "List of To Kill a Mockingbird characters",
+        "text": "Calpurnia, nicknamed Cal, is the Finch family's African-American housekeeper, whom the children love and Atticus deeply respects (he remarks in her defense that she \"never indulged [the children] like most colored nurses\"). She is highly regarded by Atticus. She is an important figure in Scout's life, providing discipline, instruction, and love. She also fills the maternal role for the children after their mother's death. Calpurnia is a mother herself and raised her son, Zeebo, to adulthood. Calpurnia is one of the few black characters in the novel who is able to read and write, and it is she who taught Scout to write. She learned how to read from Miss Maudie's aunt, Miss Buford, who taught her how to read out of Blackstone's Commentaries, a book given to her. Aunt Alexandra despised Calpurnia because Alexandra believed that Calpurnia was not a \"maternal figure\" for Jem and Scout, especially for Scout."
+      },
+      {
+        "passage_id": "doc5979",
+        "title": "List of To Kill a Mockingbird characters",
+        "text": "Lula is an African-American woman with a dislike for white people. She doesn't like the idea of Calpurnia bringing Atticus Finch's children, Jem and Scout, with her to church and tells her so but is overruled by the other congregants. According to James Zeebo, Calpurnia's son, Lula's said to be, \"a troublemaker from way back, with fancy ideas and haughty ways.\" She's threatened with being \"churched\" (subjected to church discipline) by Reverend Sykes."
+      },
+      {
+        "passage_id": "doc5995",
+        "title": "List of To Kill a Mockingbird characters",
+        "text": "Zeebo is Calpurnia's eldest son. He is one of just four people in First Purchase Church who can read, so he is the vocal leader, leading hymns in the Negro First Purchase Church by \"lining,\" reading a line of verse and having the congregation repeat it. Calpurnia taught Zeebo how to read. He is also the garbage man of Maycomb, and took away the dead rabid dog, Tim Johnson. When a fellow church member, a woman named Lula, tries to make the children feel bad for attending church with his mother, Zeebo welcomes Scout and Jem with open arms. He is kind but very quiet."
+      }
+    ],
+    "manual_judgment": "",
+    "audit_notes": ""
+  },
+  {
+    "beir_query_id": "test1630",
+    "question": "how many books are in the diary of a whimpy kid series",
+    "answers": [
+      "12"
+    ],
+    "sampling_groups": [
+      "rejected"
+    ],
+    "automated_filter_result": "rejected",
+    "relevant_passage_ids": [
+      "doc57938"
+    ],
+    "evidence_passages": [
+      {
+        "passage_id": "doc57938",
+        "title": "Diary of a Wimpy Kid (book series)",
+        "text": "The book became an instant hit, and the online version received about 20 million views as of 2009; many online readers requested a printed version. Kinney had agreed, and in April 2007, Diary of a Wimpy Kid was published.[5] To date, twelve Wimpy Kid books have been released, plus one do-it-yourself book and two movie diaries. In April 2009, TIME named Kinney one of The World's Most Influential People.[7]"
+      }
+    ],
+    "manual_judgment": "",
+    "audit_notes": ""
+  },
+  {
+    "beir_query_id": "test1633",
+    "question": "what is the largest bill in american money",
+    "answers": [
+      "$100"
+    ],
+    "sampling_groups": [
+      "short_answer"
+    ],
+    "automated_filter_result": "accepted",
+    "relevant_passage_ids": [
+      "doc57962"
+    ],
+    "evidence_passages": [
+      {
+        "passage_id": "doc57962",
+        "title": "Large denominations of United States currency",
+        "text": "Large denominations of United States currency greater than $100 were circulated by the United States Treasury until 1969. Since then, U.S. dollar banknotes have only been issued in seven denominations: $1, $2, $5, $10, $20, $50, and $100."
+      }
+    ],
+    "manual_judgment": "",
+    "audit_notes": ""
+  },
+  {
+    "beir_query_id": "test1672",
+    "question": "what is the share of agriculture in indian economy",
+    "answers": [
+      "17.32%",
+      "23%"
+    ],
+    "sampling_groups": [
+      "short_answer"
+    ],
+    "automated_filter_result": "accepted",
+    "relevant_passage_ids": [
+      "doc59125",
+      "doc59157"
+    ],
+    "evidence_passages": [
+      {
+        "passage_id": "doc59125",
+        "title": "Economy of India",
+        "text": "India has one of the fastest growing service sectors in the world with an annual growth rate above 9% since 2001, which contributed to 57% of GDP in 2012–13.[41] India has become a major exporter of IT services, Business Process Outsourcing (BPO) services, and software services with $154 billion revenue in FY 2017.[42][41] This is the fastest-growing part of the economy.[43] The IT industry continues to be the largest private-sector employer in India.[44][45] India is the third-largest start-up hub in the world with over 3,100 technology start-ups in 2014–15[46] The agricultural sector is the largest employer in India's economy but contributes to a declining share of its GDP (17% in 2013–14). India ranks second worldwide in farm output.[47] The industry (manufacturing) sector has held a steady share of its economic contribution (26% of GDP in 2013–14).[48] The Indian automobile industry is one of the largest in the world with an annual production of 21.48 million vehicles (mostly two and three-wheelers) in 2013–14.[49] India had $600 billion worth of retail market in 2015 and one of world's fastest growing e-commerce markets.[50][51]"
+      },
+      {
+        "passage_id": "doc59157",
+        "title": "Economy of India",
+        "text": "India ranks second worldwide in farm output. Agriculture and allied sectors like forestry, logging and fishing accounted for 17% of the GDP and employed 49% of its total workforce in 2014.[143] Agriculture accounted for 23% of GDP, and employed 59% of the country's total workforce in 2016.[144] As the Indian economy has diversified and grown, agriculture's contribution to GDP has steadily declined from 1951 to 2011, yet it is still the country's largest employment source and a significant piece of its overall socio-economic development.[145] Crop-yield-per-unit-area of all crops has grown since 1950, due to the special emphasis placed on agriculture in the five-year plans and steady improvements in irrigation, technology, application of modern agricultural practices and provision of agricultural credit and subsidies since the Green Revolution in India. However, international comparisons reveal the average yield in India is generally 30% to 50% of the highest average yield in the world.[146] The states of Uttar Pradesh, Punjab, Haryana, Madhya Pradesh, Andhra Pradesh, Telangana, Bihar, West Bengal, Gujarat and Maharashtra are key contributors to Indian agriculture."
+      }
+    ],
+    "manual_judgment": "",
+    "audit_notes": ""
+  },
+  {
+    "beir_query_id": "test1713",
+    "question": "who sings tie a yellow ribbon around the old oak tree",
+    "answers": [
+      "Joyce Vincent Wilson",
+      "Pamela Vincent",
+      "Tony Orlando and Dawn"
+    ],
+    "sampling_groups": [
+      "random_accepted"
+    ],
+    "automated_filter_result": "accepted",
+    "relevant_passage_ids": [
+      "doc60822"
+    ],
+    "evidence_passages": [
+      {
+        "passage_id": "doc60822",
+        "title": "Tie a Yellow Ribbon Round the Ole Oak Tree",
+        "text": "\"Tie a Yellow Ribbon Round the Ole Oak Tree\" is a song by Tony Orlando and Dawn. It was written by Irwin Levine and L. Russell Brown and produced by Hank Medress and Dave Appell, with Motown/Stax backing vocalist Telma Hopkins, Joyce Vincent Wilson and her sister Pamela Vincent on backing vocals.[1] It was a worldwide hit for the group in 1973."
+      }
+    ],
+    "manual_judgment": "",
+    "audit_notes": ""
+  },
+  {
+    "beir_query_id": "test1734",
+    "question": "who played raquel in only fools and horses",
+    "answers": [
+      "Tessa Peake-Jones"
+    ],
+    "sampling_groups": [
+      "random_accepted"
+    ],
+    "automated_filter_result": "accepted",
+    "relevant_passage_ids": [
+      "doc61431"
+    ],
+    "evidence_passages": [
+      {
+        "passage_id": "doc61431",
+        "title": "Tessa Peake-Jones",
+        "text": "Tessa Peake-Jones (born 9 May 1957) is an English actress. She is known for her role as Raquel in the BBC sitcom Only Fools and Horses, whom she played from December 1988 until it ended in 2003."
+      }
+    ],
+    "manual_judgment": "",
+    "audit_notes": ""
+  },
+  {
+    "beir_query_id": "test1736",
+    "question": "what type of political system does el salvador have",
+    "answers": [
+      "a presidential representative democratic republic",
+      "\"flawed democracy\"",
+      "presidential representative democratic republic"
+    ],
+    "sampling_groups": [
+      "random_accepted"
+    ],
+    "automated_filter_result": "accepted",
+    "relevant_passage_ids": [
+      "doc61486",
+      "doc61488"
+    ],
+    "evidence_passages": [
+      {
+        "passage_id": "doc61486",
+        "title": "Politics of El Salvador",
+        "text": "Politics of El Salvador takes place in land a framework of a presidential representative democratic republic, whereby the President of El Salvador is both head of state and head of government, and of an Executive power is exercised by the government."
+      },
+      {
+        "passage_id": "doc61488",
+        "title": "Politics of El Salvador",
+        "text": "The Economist Intelligence Unit has rated El Salvador as \"flawed democracy\" in 2016.[1]"
+      }
+    ],
+    "manual_judgment": "",
+    "audit_notes": ""
+  },
+  {
+    "beir_query_id": "test175",
+    "question": "when was the abacus invented in ancient china",
+    "answers": [
+      "2nd century BC"
+    ],
+    "sampling_groups": [
+      "random_accepted"
+    ],
+    "automated_filter_result": "accepted",
+    "relevant_passage_ids": [
+      "doc6376"
+    ],
+    "evidence_passages": [
+      {
+        "passage_id": "doc6376",
+        "title": "Abacus",
+        "text": "The earliest known written documentation of the Chinese abacus dates to the 2nd century BC.[21]"
+      }
+    ],
+    "manual_judgment": "",
+    "audit_notes": ""
+  },
+  {
+    "beir_query_id": "test1776",
+    "question": "who is the actor that plays ducky on ncis",
+    "answers": [
+      "David McCallum"
+    ],
+    "sampling_groups": [
+      "rejected"
+    ],
+    "automated_filter_result": "rejected",
+    "relevant_passage_ids": [
+      "doc62606"
+    ],
+    "evidence_passages": [
+      {
+        "passage_id": "doc62606",
+        "title": "David McCallum",
+        "text": "In recent years, McCallum has gained renewed international recognition and popularity for his role as NCIS medical examiner Dr.Â Donald \"Ducky\" Mallard in the American television series NCIS."
+      }
+    ],
+    "manual_judgment": "",
+    "audit_notes": ""
+  },
+  {
+    "beir_query_id": "test1879",
+    "question": "ganglion axons forming the optic nerve run to the",
+    "answers": [
+      "pretectal nucleus",
+      "suprachiasmatic nucleus",
+      "photoreceptor cells",
+      "lateral geniculate nucleus",
+      "optic chiasma"
+    ],
+    "sampling_groups": [
+      "multiple_answers"
+    ],
+    "automated_filter_result": "accepted",
+    "relevant_passage_ids": [
+      "doc65974",
+      "doc65977",
+      "doc65978"
+    ],
+    "evidence_passages": [
+      {
+        "passage_id": "doc65974",
+        "title": "Optic nerve",
+        "text": "The optic nerve, also known as cranial nerve II, is a paired nerve that transmits visual information from the retina to the brain. In humans, the optic nerve is derived from optic stalks during the seventh week of development and is composed of retinal ganglion cell axons and glial cells; it extends from the optic disc to the optic chiasma and continues as the optic tract to the lateral geniculate nucleus, pretectal nuclei, and superior colliculus.[1][2]"
+      },
+      {
+        "passage_id": "doc65977",
+        "title": "Optic nerve",
+        "text": "The optic nerve is composed of retinal ganglion cell axons and glial cells. Each human optic nerve contains between 770,000 and 1.7 million nerve fibers,[3] which are axons of the retinal ganglion cells of one retina. In the fovea, which has high acuity, these ganglion cells connect to as few as 5 photoreceptor cells; in other areas of retina, they connect to many thousand photoreceptors."
+      },
+      {
+        "passage_id": "doc65978",
+        "title": "Optic nerve",
+        "text": "The optic nerve leaves the orbit (eye socket) via the optic canal, running postero-medially towards the optic chiasm, where there is a partial decussation (crossing) of fibres from the temporal visual fields (the nasal hemi-retina) of both eyes. The proportion of decussating fibers varies between species, and is correlated with the degree of binocular vision enjoyed by a species.[4] Most of the axons of the optic nerve terminate in the lateral geniculate nucleus from where information is relayed to the visual cortex, while other axons terminate in the pretectal nucleus and are involved in reflexive eye movements. Other axons terminate in the suprachiasmatic nucleus and are involved in regulating the sleep-wake cycle. Its diameter increases from about 1.6 mm within the eye to 3.5 mm in the orbit to 4.5 mm within the cranial space. The optic nerve component lengths are 1 mm in the globe, 24 mm in the orbit, 9 mm in the optic canal, and 16 mm in the cranial space before joining the optic chiasm. There, partial decussation occurs, and about 53% of the fibers cross to form the optic tracts. Most of these fibres terminate in the lateral geniculate body.[1]"
+      }
+    ],
+    "manual_judgment": "",
+    "audit_notes": ""
+  },
+  {
+    "beir_query_id": "test188",
+    "question": "how many episodes of greys anatomy season 14",
+    "answers": [
+      "24",
+      "24 episodes",
+      "21"
+    ],
+    "sampling_groups": [
+      "short_answer"
+    ],
+    "automated_filter_result": "accepted",
+    "relevant_passage_ids": [
+      "doc6895"
+    ],
+    "evidence_passages": [
+      {
+        "passage_id": "doc6895",
+        "title": "Grey's Anatomy (season 14)",
+        "text": "The fourteenth season of the American television medical drama Grey's Anatomy was ordered on February 10, 2017, by American Broadcasting Company (ABC), and premiered on September 28, 2017 with a special two-hour premiere.[1] The season will consist of 24 episodes,[2][3] with the season's seventh episode marking the 300th episode for the series overall. The season is produced by ABC Studios, in association with Shondaland Production Company and The Mark Gordon Company; the showrunners being Krista Vernoff and William Harper."
+      }
+    ],
+    "manual_judgment": "",
+    "audit_notes": ""
+  },
+  {
+    "beir_query_id": "test1913",
+    "question": "which animal is the carrier of the h1n1 virus",
+    "answers": [
+      "Pig",
+      "pigs"
+    ],
+    "sampling_groups": [
+      "short_answer"
+    ],
+    "automated_filter_result": "accepted",
+    "relevant_passage_ids": [
+      "doc67059",
+      "doc67119"
+    ],
+    "evidence_passages": [
+      {
+        "passage_id": "doc67059",
+        "title": "Swine influenza",
+        "text": "Swine influenza is an infection caused by any one of several types of swine influenza viruses. Swine influenza virus (SIV) or swine-origin influenza virus (S-OIV) is any strain of the influenza family of viruses that is endemic in pigs.[2] As of 2009, the known SIV strains include influenza C and the subtypes of influenza A known as H1N1, H1N2, H2N1, H3N1, H3N2, and H2N3."
+      },
+      {
+        "passage_id": "doc67119",
+        "title": "Swine influenza",
+        "text": "The phylogenetic origin of the flu virus that caused the 2009 pandemics can be traced before 1918. Around 1918, the ancestral virus, of avian origin, crossed the species boundaries and infected humans as human H1N1. The same phenomenon took place soon after in America, where the human virus was infecting pigs; it led to the emergence of the H1N1 swine strain, which later became the classic[clarification needed] swine flu."
+      }
+    ],
+    "manual_judgment": "",
+    "audit_notes": ""
+  },
+  {
+    "beir_query_id": "test2104",
+    "question": "what season does bart bass die in gossip girl",
+    "answers": [
+      ")"
+    ],
+    "sampling_groups": [
+      "rejected"
+    ],
+    "automated_filter_result": "rejected",
+    "relevant_passage_ids": [
+      "doc73189"
+    ],
+    "evidence_passages": [
+      {
+        "passage_id": "doc73189",
+        "title": "Chuck Bass",
+        "text": "At the beginning of the season Chuck and Blair make a pact not to be together until Blair succeeds at Waldorf designs and Chuck takes down Bart. After many failed attempts of taking down Bart, Bart and Chuck end up in a fight. This leads to Bart falling off a building and dying. Blair is the only witness to this event and so Chuck and Blair get married so Blair does not have to testify against Chuck."
+      }
+    ],
+    "manual_judgment": "",
+    "audit_notes": ""
+  },
+  {
+    "beir_query_id": "test2106",
+    "question": "what type of novel is goodbye mr chips",
+    "answers": [
+      "Psychological fiction",
+      "novella"
+    ],
+    "sampling_groups": [
+      "random_accepted"
+    ],
+    "automated_filter_result": "accepted",
+    "relevant_passage_ids": [
+      "doc73212"
+    ],
+    "evidence_passages": [
+      {
+        "passage_id": "doc73212",
+        "title": "Goodbye, Mr. Chips",
+        "text": "Goodbye, Mr. Chips is a novella about the life of a schoolteacher, Mr. Chipping, written by the English writer James Hilton and first published by Hodder & Stoughton in October 1934. It has been adapted into two cinema films and two television presentations. The novella has remained an essential part of the English subject syllabus taught at Pakistan's higher secondary school level for the past 30 years, although its choice has received some criticism in the recent past due to perceived lack of relevance to the local society and education system.[1][2]"
+      }
+    ],
+    "manual_judgment": "",
+    "audit_notes": ""
+  },
+  {
+    "beir_query_id": "test2129",
+    "question": "where is the capital city of alabama located",
+    "answers": [
+      "Montgomery"
+    ],
+    "sampling_groups": [
+      "random_accepted"
+    ],
+    "automated_filter_result": "accepted",
+    "relevant_passage_ids": [
+      "doc73914"
+    ],
+    "evidence_passages": [
+      {
+        "passage_id": "doc73914",
+        "title": "Alabama",
+        "text": "Alabama is nicknamed the Yellowhammer State, after the state bird. Alabama is also known as the \"Heart of Dixie\" and the Cotton State. The state tree is the longleaf pine, and the state flower is the camellia. Alabama's capital is Montgomery. The largest city by population is Birmingham,[9] which has long been the most industrialized city; the largest city by land area is Huntsville. The oldest city is Mobile, founded by French colonists in 1702 as the capital of French Louisiana.[10]"
+      }
+    ],
+    "manual_judgment": "",
+    "audit_notes": ""
+  },
+  {
+    "beir_query_id": "test2134",
+    "question": "who sang the original scooby doo theme song",
+    "answers": [
+      "Larry Marks"
+    ],
+    "sampling_groups": [
+      "rejected"
+    ],
+    "automated_filter_result": "rejected",
+    "relevant_passage_ids": [
+      "doc74300"
+    ],
+    "evidence_passages": [
+      {
+        "passage_id": "doc74300",
+        "title": "Scooby-Doo, Where Are You!",
+        "text": "The second season featured bubblegum \"chase scene\" songs produced by La La Productions (which had originally been contracted to create the music for Josie and the Pussycats, the first of many animated series made from the same mold as Scooby-Doo, Where Are You!). These songs were written by Danny Janssen and Austin Roberts, and were performed by Roberts, who also made a new recording of the Scooby Doo, Where Are You! theme song for the second season. The series' theme song has been covered by several subsequent artists, including Matthew Sweet for the 1995 TV special and album Saturday Morning: Cartoons' Greatest Hits; Third Eye Blind for the 1998 film Scooby-Doo on Zombie Island; Billy Ray Cyrus for Scooby-Doo! and the Witch's Ghost (1999); Jennifer Love Hewitt for Scooby-Doo and the Alien Invaders (2000); the B-52's (Cindy, Kate and Fred) for Scooby-Doo and the Cyber Chase (2001); MxPx for the live-action Scooby-Doo film (2002); and Krystal Harris for Scooby-Doo! and the Legend of the Vampire (2003)."
+      }
+    ],
+    "manual_judgment": "",
+    "audit_notes": ""
+  },
+  {
+    "beir_query_id": "test2140",
+    "question": "who added a press room to the white house",
+    "answers": [
+      "Richard Nixon",
+      "President Richard Nixon"
+    ],
+    "sampling_groups": [
+      "multiple_answers"
+    ],
+    "automated_filter_result": "accepted",
+    "relevant_passage_ids": [
+      "doc74515"
+    ],
+    "evidence_passages": [
+      {
+        "passage_id": "doc74515",
+        "title": "James S. Brady Press Briefing Room",
+        "text": "In 1969, to accommodate the growing number of reporters assigned to the White House, President Richard Nixon had the indoor swimming pool, which had been installed by the March of Dimes for Franklin D. Roosevelt, covered and turned into press offices and a lounge that could double as a briefing room.[2][3]"
+      }
+    ],
+    "manual_judgment": "",
+    "audit_notes": ""
+  },
+  {
+    "beir_query_id": "test2175",
+    "question": "what do the 3 dots mean in math",
+    "answers": [
+      "therefore sign",
+      "the therefore sign"
+    ],
+    "sampling_groups": [
+      "multiple_answers"
+    ],
+    "automated_filter_result": "accepted",
+    "relevant_passage_ids": [
+      "doc75892"
+    ],
+    "evidence_passages": [
+      {
+        "passage_id": "doc75892",
+        "title": "Therefore sign",
+        "text": "In logical argument and mathematical proof, the therefore sign (∴) is generally used before a logical consequence, such as the conclusion of a syllogism. The symbol consists of three dots placed in an upright triangle and is read therefore. It is encoded at U+2234 ∴ therefore (HTML &#8756; · &there4;). For common use in Microsoft Office hold the ALT key and type \"8756\". While it is not generally used in formal writing, it is used in mathematics and shorthand. It is complementary to U+2235 ∵ because (HTML &#8757;)."
+      }
+    ],
+    "manual_judgment": "",
+    "audit_notes": ""
+  },
+  {
+    "beir_query_id": "test228",
+    "question": "how many games in a row have the uconn women's basketball team won",
+    "answers": [
+      "111 straight wins",
+      "111",
+      "90"
+    ],
+    "sampling_groups": [
+      "multiple_answers"
+    ],
+    "automated_filter_result": "accepted",
+    "relevant_passage_ids": [
+      "doc8162"
+    ],
+    "evidence_passages": [
+      {
+        "passage_id": "doc8162",
+        "title": "Connecticut Huskies women's basketball",
+        "text": "UConn owns the two longest winning streaks, any gender, in college basketball history. The longest streak, 111 straight wins, started with a win against Creighton on November 23, 2014, and ended on March 31, 2017 when a buzzer-beater at the end of the overtime caused a loss in the 2017 NCAA Final Four by Mississippi State.[3] The second streak counts 90 consecutive wins, including two undefeated seasons (2008–09 and 2009–10), and was delimited by two losses against Stanford, the first on April 6, 2008 in the National Semifinals of the NCAA Tournament, and the second – three seasons later – on December 19, 2010.[4]"
+      }
+    ],
+    "manual_judgment": "",
+    "audit_notes": ""
+  },
+  {
+    "beir_query_id": "test2365",
+    "question": "what is the width of a cricket bat",
+    "answers": [
+      "no more than 4.25 inches"
+    ],
+    "sampling_groups": [
+      "rejected"
+    ],
+    "automated_filter_result": "rejected",
+    "relevant_passage_ids": [
+      "doc81820"
+    ],
+    "evidence_passages": [
+      {
+        "passage_id": "doc81820",
+        "title": "Cricket bat",
+        "text": "Law 5 of the Laws of Cricket,[4] as the rules of the game are known, state that the length of the bat may be no more than 38 in (965 mm), the width no more than 4.25 in (108 mm), the overall depth no more than 2.64 in (67 mm) and edge no more than 1.56 in (40 mm). Bats typically weigh from 2 lb 7 oz to 3 lb (1.2 to 1.4 kg) though there is no standard. Appendix B of the Laws of Cricket set out more precise specifications.[5] This rule was introduced following the Monster Bat Incident of 1771."
+      }
+    ],
+    "manual_judgment": "",
+    "audit_notes": ""
+  },
+  {
+    "beir_query_id": "test2464",
+    "question": "how much is a 72 oz steak at the big texan",
+    "answers": [
+      "$72"
+    ],
+    "sampling_groups": [
+      "short_answer"
+    ],
+    "automated_filter_result": "accepted",
+    "relevant_passage_ids": [
+      "doc85013"
+    ],
+    "evidence_passages": [
+      {
+        "passage_id": "doc85013",
+        "title": "The Big Texan Steak Ranch",
+        "text": "The Big Texan is best known for its 72 ounce (4.5 pounds or 2.04Â kg) steak, nicknamed \"The Texas King.\" The steak is free to anyone who, in one hour or less, can eat the entire meal, consisting of the steak itself, a bread roll with butter, a baked potato, shrimp cocktail, and a salad; otherwise, the meal costs $72.[3] Those who have successfully consumed the Texas King meal have their names recorded and posted at the restaurant. As of February 2018, over 9,500 people out of about 62,000 have accomplished this feat."
+      }
+    ],
+    "manual_judgment": "",
+    "audit_notes": ""
+  },
+  {
+    "beir_query_id": "test2510",
+    "question": "two atoms of the same element that are covalently bonded",
+    "answers": [
+      "shared pairs or bonding pairs"
+    ],
+    "sampling_groups": [
+      "rejected"
+    ],
+    "automated_filter_result": "rejected",
+    "relevant_passage_ids": [
+      "doc86595"
+    ],
+    "evidence_passages": [
+      {
+        "passage_id": "doc86595",
+        "title": "Covalent bond",
+        "text": "In the molecule H\n2, the hydrogen atoms share the two electrons via covalent bonding.[5] Covalency is greatest between atoms of similar electronegativities. Thus, covalent bonding does not necessarily require that the two atoms be of the same elements, only that they be of comparable electronegativity. Covalent bonding that entails sharing of electrons over more than two atoms is said to be delocalized."
+      }
+    ],
+    "manual_judgment": "",
+    "audit_notes": ""
+  },
+  {
+    "beir_query_id": "test2637",
+    "question": "gestational sac and yolk sac but no baby at 7 weeks",
+    "answers": [
+      "an anembryonic gestation"
+    ],
+    "sampling_groups": [
+      "rejected"
+    ],
+    "automated_filter_result": "rejected",
+    "relevant_passage_ids": [
+      "doc90330"
+    ],
+    "evidence_passages": [
+      {
+        "passage_id": "doc90330",
+        "title": "Blighted ovum",
+        "text": "A blighted ovum or anembryonic gestation (anembryonic pregnancy) is a pregnancy in which the embryo never develops or develops and is reabsorbed.[1] It typically results in a miscarriage. In a normal pregnancy, an embryo would be visible on an ultrasound by six weeks after the woman's last menstrual period. Anembryonic gestation is one of the causes of miscarriage of a pregnancy.[2][3][4]"
+      }
+    ],
+    "manual_judgment": "",
+    "audit_notes": ""
+  },
+  {
+    "beir_query_id": "test2659",
+    "question": "band who had a hit with heart and soul crossword",
+    "answers": [
+      "British pop band T'Pau",
+      "T'Pau"
+    ],
+    "sampling_groups": [
+      "random_accepted"
+    ],
+    "automated_filter_result": "accepted",
+    "relevant_passage_ids": [
+      "doc91220"
+    ],
+    "evidence_passages": [
+      {
+        "passage_id": "doc91220",
+        "title": "Heart and Soul (T'Pau song)",
+        "text": "\"Heart and Soul\" is a song by British pop band T'Pau. Featuring vocalist Carol Decker performing overlapping lyrics, the song was released as the group's first single in 1987 from their debut album Bridge of Spies. Following its inclusion in a Pepe Jeans advert, the single reached No. 4 in both the US and UK charts."
+      }
+    ],
+    "manual_judgment": "",
+    "audit_notes": ""
+  },
+  {
+    "beir_query_id": "test2672",
+    "question": "who owned the colts when they left baltimore",
+    "answers": [
+      "Robert Irsay",
+      "Irsay"
+    ],
+    "sampling_groups": [
+      "random_accepted"
+    ],
+    "automated_filter_result": "accepted",
+    "relevant_passage_ids": [
+      "doc91519"
+    ],
+    "evidence_passages": [
+      {
+        "passage_id": "doc91519",
+        "title": "Baltimore Colts relocation to Indianapolis",
+        "text": "On March 28, 1984, due to the Maryland Senate's actions, the Phoenix group withdrew its offer.[16] That afternoon, Irsay paid a call to Mayor Hudnut and the city of Indianapolis offered the Colts owner a $12.5 million loan, a $4 million training complex, and the use of the brand new $77.5 million, 57,980 seat Hoosier Dome. Irsay agreed, which set a chain of events into motion that would bring about the move.[17]"
+      }
+    ],
+    "manual_judgment": "",
+    "audit_notes": ""
+  },
+  {
+    "beir_query_id": "test2676",
+    "question": "where was the first sonic drive in located",
+    "answers": [
+      "Woodward, Oklahoma"
+    ],
+    "sampling_groups": [
+      "random_accepted"
+    ],
+    "automated_filter_result": "accepted",
+    "relevant_passage_ids": [
+      "doc91704"
+    ],
+    "evidence_passages": [
+      {
+        "passage_id": "doc91704",
+        "title": "Sonic Drive-In",
+        "text": "Originally, Top Hat customers would park their automobiles anywhere on the gravel parking lot and walk up to place their orders. However, on a trip to Louisiana, Smith saw a drive-in that used speakers for ordering. He suspected that he could increase his sales by controlling the parking and having the customers order from speakers at their cars, with carhops delivering the food to the cars. Smith borrowed several automobiles from a friend who owned a used-car lot to establish a layout for controlled parking. He also had some so-called \"jukebox boys\" come in and wire an intercom system in the parking lot. Sales immediately tripled. Charles Woodrow Pappe, an entrepreneur, chanced upon the Shawnee drive-in and was impressed. He and Smith negotiated the first franchise location in Woodward, Oklahoma, in 1956, based on nothing more than a handshake. By 1958, two more drive-ins were built, in Enid and Stillwater.[7]"
+      }
+    ],
+    "manual_judgment": "",
+    "audit_notes": ""
+  },
+  {
+    "beir_query_id": "test2689",
+    "question": "what percent of the us population controls the wealth",
+    "answers": [
+      "1%"
+    ],
+    "sampling_groups": [
+      "short_answer"
+    ],
+    "automated_filter_result": "accepted",
+    "relevant_passage_ids": [
+      "doc92189",
+      "doc92193"
+    ],
+    "evidence_passages": [
+      {
+        "passage_id": "doc92189",
+        "title": "Wealth inequality in the United States",
+        "text": "Just prior to President Obama's 2014 State of the Union Address, media[6] reported that the top wealthiest 1% possess 40% of the nation’s wealth; the bottom 80% own 7%; similarly, but later, the media reported, the \"richest 1 percent in the United States now own more additional income than the bottom 90 percent\".[7] The gap between the top 10% and the middle class is over 1,000%; that increases another 1,000% for the top 1%. The average employee \"needs to work more than a month to earn what the CEO earns in one hour.\"[8] Although different from income inequality, the two are related. In Inequality for All—a 2013 documentary with Robert Reich in which he argued that income inequality is the defining issue for the United States—Reich states that 95% of economic gains went to the top 1% net worth (HNWI) since 2009 when the recovery allegedly started.[9] More recently, in 2017, an Oxfam study found that eight rich people, six of them Americans, own as much combined wealth as half the human race.[10][11][12]"
+      },
+      {
+        "passage_id": "doc92193",
+        "title": "Wealth inequality in the United States",
+        "text": "In 2007, the top 20% wealthiest possessed 80% of all financial assets.[19] In 2007 the richest 1% of the American population owned 35% of the country's total wealth, and the next 19% owned 51%. Thus, the top 20% of Americans owned 86% of the country's wealth and the bottom 80% of the population owned 14%. In 2011, financial inequality was greater than inequality in total wealth, with the top 1% of the population owning 43%, the next 19% of Americans owning 50%, and the bottom 80% owning 7%.[20] However, after the Great Recession which started in 2007, the share of total wealth owned by the top 1% of the population grew from 35% to 37%, and that owned by the top 20% of Americans grew from 86% to 88%. The Great Recession also caused a drop of 36% in median household wealth, but a drop of only 11% for the top 1%, further widening the gap between the top 1% and the bottom 99%.[18][20][21]"
+      }
+    ],
+    "manual_judgment": "",
+    "audit_notes": ""
+  },
+  {
+    "beir_query_id": "test2824",
+    "question": "where do the neutrons come from in nuclear fission",
+    "answers": [
+      "Startup neutron source"
+    ],
+    "sampling_groups": [
+      "rejected"
+    ],
+    "automated_filter_result": "rejected",
+    "relevant_passage_ids": [
+      "doc96902"
+    ],
+    "evidence_passages": [
+      {
+        "passage_id": "doc96902",
+        "title": "Startup neutron source",
+        "text": "The startup sources are typically inserted in regularly spaced positions inside the reactor core, in place of some of the fuel rods."
+      }
+    ],
+    "manual_judgment": "",
+    "audit_notes": ""
+  },
+  {
+    "beir_query_id": "test2826",
+    "question": "when was zero first used in mathematical operations",
+    "answers": [
+      "By 1770 BC",
+      "7th century"
+    ],
+    "sampling_groups": [
+      "rejected"
+    ],
+    "automated_filter_result": "rejected",
+    "relevant_passage_ids": [
+      "doc96920",
+      "doc96937"
+    ],
+    "evidence_passages": [
+      {
+        "passage_id": "doc96920",
+        "title": "0",
+        "text": "Ancient Egyptian numerals were base 10. They used hieroglyphs for the digits and were not positional. By 1770Â BC, the Egyptians had a symbol for zero in accounting texts. The symbol nfr, meaning beautiful, was also used to indicate the base level in drawings of tombs and pyramids and distances were measured relative to the base line as being above or below this line.[12]"
+      },
+      {
+        "passage_id": "doc96937",
+        "title": "0",
+        "text": "The rules governing the use of zero appeared for the first time in Brahmagupta's Brahmasputha Siddhanta (7thÂ century). This work considers not only zero, but negative numbers, and the algebraic rules for the elementary operations of arithmetic with such numbers. In some instances, his rules differ from the modern standard, specifically the definition of the value of zero divided by zero as zero.[37]"
+      }
+    ],
+    "manual_judgment": "",
+    "audit_notes": ""
+  },
+  {
+    "beir_query_id": "test2845",
+    "question": "how many paintings of sunflowers did van gogh paint",
+    "answers": [
+      "two"
+    ],
+    "sampling_groups": [
+      "short_answer"
+    ],
+    "automated_filter_result": "accepted",
+    "relevant_passage_ids": [
+      "doc97421"
+    ],
+    "evidence_passages": [
+      {
+        "passage_id": "doc97421",
+        "title": "Sunflowers (Van Gogh series)",
+        "text": "Sunflowers (original title, in French: Tournesols) is the name of two series of still life paintings by the Dutch painter Vincent van Gogh. The first series, executed in Paris in 1887, depicts the flowers lying on the ground, while the second set, executed a year later in Arles, shows a bouquet of sunflowers in a vase. In the artist's mind both sets were linked by the name of his friend Paul Gauguin, who acquired two of the Paris versions. About eight months later van Gogh hoped to welcome and to impress Gauguin again with Sunflowers, now part of the painted Décoration for the Yellow House that he prepared for the guestroom of his home in Arles, where Gauguin was supposed to stay. After Gauguin's departure, van Gogh imagined the two major versions as wings of the Berceuse Triptych, and finally he included them in his Les XX in Bruxelles exhibit."
+      }
+    ],
+    "manual_judgment": "",
+    "audit_notes": ""
+  },
+  {
+    "beir_query_id": "test2849",
+    "question": "when did muhammad ali win an olympic gold medal",
+    "answers": [
+      "1960"
+    ],
+    "sampling_groups": [
+      "random_accepted"
+    ],
+    "automated_filter_result": "accepted",
+    "relevant_passage_ids": [
+      "doc97490"
+    ],
+    "evidence_passages": [
+      {
+        "passage_id": "doc97490",
+        "title": "Muhammad Ali",
+        "text": "Clay was born and raised in Louisville, Kentucky, and began training as an amateur boxer when he was 12 years old. At age 18, he won a gold medal in the light heavyweight division at the 1960 Summer Olympics in Rome and turned professional later that year. At age 22 in 1964, he won the WBA, WBC, and lineal heavyweight titles from Sonny Liston in a major upset. Clay then converted to Islam and changed his name from Cassius Clay, which he called his \"slave name\", to Muhammad Ali. He set an example of racial pride for African Americans and resistance to white domination during the Civil Rights Movement.[11][12]"
+      }
+    ],
+    "manual_judgment": "",
+    "audit_notes": ""
+  },
+  {
+    "beir_query_id": "test2926",
+    "question": "who negotiated an agreement with japan concerning the future of korea",
+    "answers": [
+      "the Korean Empire",
+      "Empire of Japan",
+      "Taft",
+      "Korean Empire"
+    ],
+    "sampling_groups": [
+      "multiple_answers"
+    ],
+    "automated_filter_result": "accepted",
+    "relevant_passage_ids": [
+      "doc100090",
+      "doc100092"
+    ],
+    "evidence_passages": [
+      {
+        "passage_id": "doc100090",
+        "title": "Japan–Korea Treaty of 1905",
+        "text": "The Japan–Korea Treaty of 1905, also known as the Eulsa Treaty, Eulsa Unwilling Treaty or Japan–Korea Protectorate Treaty, was made between the Empire of Japan and the Korean Empire in 1905. Negotiations were concluded on November 17, 1905.[1] The treaty deprived Korea of its diplomatic sovereignty and made Korea a protectorate of Imperial Japan. It resulted from Imperial Japan's victory in the Russo-Japanese War in 1905.[2]"
+      },
+      {
+        "passage_id": "doc100092",
+        "title": "Japan–Korea Treaty of 1905",
+        "text": "Following Imperial Japan’s victory in the Russo-Japanese War, with its subsequent withdrawal of Russian influence, and the Taft–Katsura Agreement, in which the United States allegedly agreed not to interfere with Japan in matters concerning Korea, the Japanese government sought to formalize its sphere of influence over the Korean Peninsula."
+      }
+    ],
+    "manual_judgment": "",
+    "audit_notes": ""
+  },
+  {
+    "beir_query_id": "test2960",
+    "question": "disagreements involving slavery and states' rights were two of the main causes of",
+    "answers": [
+      "the American Civil War"
+    ],
+    "sampling_groups": [
+      "rejected"
+    ],
+    "automated_filter_result": "rejected",
+    "relevant_passage_ids": [
+      "doc101250"
+    ],
+    "evidence_passages": [
+      {
+        "passage_id": "doc101250",
+        "title": "Issues of the American Civil War",
+        "text": "The question of how important the tariff was in causing the war stems from the Nullification Crisis, which was South Carolina's attempt to nullify a tariff and lasted from 1828 to 1832. The tariff was low after 1846, and the tariff issue faded into the background by 1860 when secession began. States' rights was the justification for nullification and later secession. The most controversial right claimed by Southern states was the alleged right of Southerners to spread slavery into territories owned by the United States."
+      }
+    ],
+    "manual_judgment": "",
+    "audit_notes": ""
+  },
+  {
+    "beir_query_id": "test3112",
+    "question": "the part of the cytoskeleton made from the protein actin is called",
+    "answers": [
+      "Microfilaments",
+      "microfilament"
+    ],
+    "sampling_groups": [
+      "multiple_answers"
+    ],
+    "automated_filter_result": "accepted",
+    "relevant_passage_ids": [
+      "doc106500"
+    ],
+    "evidence_passages": [
+      {
+        "passage_id": "doc106500",
+        "title": "Cytoskeleton",
+        "text": "A large-scale example of an action performed by the cytoskeleton is muscle contraction. In the muscle, there are groups of highly specialized cells that work together to perform a function known as muscle contraction. A main component in the cytoskeleton that helps show the true function of this muscle contraction is known as a microfilament. Microfilaments are composed of the most abundant cellular protein known as actin.[8] During contraction of a muscle, within each muscle cell, myosin molecular motors collectively exert forces on parallel actin filaments. Muscle contraction starts from nerve impulses which then causes increased amounts of calcium to be released from the sarcoplasmic reticulum. Increases in calcium in the cytosol allows muscle contraction to begin with the help of two proteins, tropomyosin and troponin.[8] Tropomyosin inhibits the interaction between actin and myosin, while troponin senses the increase in calcium and releases the inhibition.[9] This action contracts the muscle cell, and through the synchronous process in many muscle cells, the entire muscle."
+      }
+    ],
+    "manual_judgment": "",
+    "audit_notes": ""
+  },
+  {
+    "beir_query_id": "test3203",
+    "question": "where was the italian episode of everybody loves raymond filmed",
+    "answers": [
+      "Anguillara Sabazia outside of Rome"
+    ],
+    "sampling_groups": [
+      "random_accepted"
+    ],
+    "automated_filter_result": "accepted",
+    "relevant_passage_ids": [
+      "doc109446"
+    ],
+    "evidence_passages": [
+      {
+        "passage_id": "doc109446",
+        "title": "Italy (Everybody Loves Raymond)",
+        "text": "After the first season of Everybody Loves Raymond ended in 1997, the series' creator, Philip Rosenthal, asked Ray Romano what he was going to do over the summer. When Rosenthal suggested he go to Italy, Romano did not accept because he was \"not really interested in other cultures.\" According to Rosenthal, \"After I got up off the floor, I realized: Here's an episode.\"[2] Directed by Gary Halvorson, \"Italy\" guest stars Silvana De Santis as Colletta, Pierrino Mascarino as Giorgio, Alex Meneses as Stefania, David Proval as Signore Fogagnolo, Enzo Vitagliano as the Bocce player, Sergio Sivori, Vanni Bramat, Luca Francucci and Alessandro Francucci.[1] It was filmed in July 2000 in the town Anguillara Sabazia outside of Rome.[2] Romano first hinted of the episode in an interview published that same month in the Rome News-Tribune.[3]"
+      }
+    ],
+    "manual_judgment": "",
+    "audit_notes": ""
+  },
+  {
+    "beir_query_id": "test3226",
+    "question": "another name for a hairpin bend crossword clue",
+    "answers": [
+      "hairpin bend",
+      "switchback",
+      "hairpin corner",
+      "switchbacks"
+    ],
+    "sampling_groups": [
+      "multiple_answers"
+    ],
+    "automated_filter_result": "accepted",
+    "relevant_passage_ids": [
+      "doc110453"
+    ],
+    "evidence_passages": [
+      {
+        "passage_id": "doc110453",
+        "title": "Hairpin turn",
+        "text": "A hairpin turn (also hairpin bend, hairpin corner, etc.), named for its resemblance to a hairpin/bobby pin, is a bend in a road with a very acute inner angle, making it necessary for an oncoming vehicle to turn about 180° to continue on the road. Such turns in ramps and trails may be called switchbacks in American English, by analogy with switchback railways. In British English \"switchback\" is more likely to refer to a heavily undulating road—a use extended from the rollercoaster and the other type of switchback railway."
+      }
+    ],
+    "manual_judgment": "",
+    "audit_notes": ""
+  },
+  {
+    "beir_query_id": "test3374",
+    "question": "what size engine does a 2005 honda civic have",
+    "answers": [
+      "1169 cc"
+    ],
+    "sampling_groups": [
+      "rejected"
+    ],
+    "automated_filter_result": "rejected",
+    "relevant_passage_ids": [
+      "doc115283"
+    ],
+    "evidence_passages": [
+      {
+        "passage_id": "doc115283",
+        "title": "Honda Civic",
+        "text": "The first Civic was introduced in July 1972 as a two-door model,[2] followed by a three-door hatchback that September. With an 1169Â cc transverse engine and front-wheel drive like the British Mini, the car provided good interior space despite overall small dimensions.[3] Initially gaining a reputation for being fuel-efficient, reliable, and environmentally friendly, later iterations have become known for performance and sportiness, especially the Civic Type R, Civic VTi, Civic GTi and Civic SiR/Si.[4][5]"
+      }
+    ],
+    "manual_judgment": "",
+    "audit_notes": ""
+  },
+  {
+    "beir_query_id": "test352",
+    "question": "how many national parks are present in india",
+    "answers": [
+      "103"
+    ],
+    "sampling_groups": [
+      "short_answer"
+    ],
+    "automated_filter_result": "accepted",
+    "relevant_passage_ids": [
+      "doc13434"
+    ],
+    "evidence_passages": [
+      {
+        "passage_id": "doc13434",
+        "title": "List of national parks of India",
+        "text": "Further federal legislation strengthening protections for wildlife was introduced in the 1980s. As of July 2017, there were 103 national parks encompassing an area of 40,500 km2 (15,600 sq mi), comprising 1.23% of India's total surface area.[1]"
+      }
+    ],
+    "manual_judgment": "",
+    "audit_notes": ""
+  },
+  {
+    "beir_query_id": "test37",
+    "question": "i want to be with you everywhere song",
+    "answers": [
+      "Everywhere"
+    ],
+    "sampling_groups": [
+      "random_accepted"
+    ],
+    "automated_filter_result": "accepted",
+    "relevant_passage_ids": [
+      "doc1016"
+    ],
+    "evidence_passages": [
+      {
+        "passage_id": "doc1016",
+        "title": "Everywhere (Fleetwood Mac song)",
+        "text": "\"Everywhere\" is a song by British-American rock band Fleetwood Mac from their fourteenth studio album Tango in the Night (1987), written by Fleetwood Mac member Christine McVie, who also performs lead vocals on the song. \"Everywhere\" was released as the fourth single from Tango in the Night on November 28, 1987 in the United States, where it reached number 14 on the Billboard Hot 100 chart and number-one on the Adult Contemporary chart, remaining there for three weeks.[1] \"Everywhere\" was released in the United Kingdom on 21 March 1988 and reached number four. It also reached number 45 in Australia."
+      }
+    ],
+    "manual_judgment": "",
+    "audit_notes": ""
+  },
+  {
+    "beir_query_id": "test373",
+    "question": "how many episodes of sabrina the teenage witch are there",
+    "answers": [
+      "163"
+    ],
+    "sampling_groups": [
+      "short_answer"
+    ],
+    "automated_filter_result": "accepted",
+    "relevant_passage_ids": [
+      "doc14083"
+    ],
+    "evidence_passages": [
+      {
+        "passage_id": "doc14083",
+        "title": "List of Sabrina the Teenage Witch episodes",
+        "text": "This is an episode list for Sabrina the Teenage Witch, an American sitcom that debuted on ABC in 1996. From Season 5, the program was aired on The WB. The series ran for seven seasons totaling 163 episodes. It originally premiered on September 27, 1996 on ABC and ended on April 24, 2003 on The WB."
+      }
+    ],
+    "manual_judgment": "",
+    "audit_notes": ""
+  },
+  {
+    "beir_query_id": "test384",
+    "question": "where is creatine phosphate found in the body",
+    "answers": [
+      "brain",
+      "pancreas",
+      "skeletal muscle and the brain",
+      "muscle cells",
+      "heart"
+    ],
+    "sampling_groups": [
+      "multiple_answers"
+    ],
+    "automated_filter_result": "accepted",
+    "relevant_passage_ids": [
+      "doc14376",
+      "doc14377"
+    ],
+    "evidence_passages": [
+      {
+        "passage_id": "doc14376",
+        "title": "Phosphocreatine",
+        "text": "Phosphocreatine, also known as creatine phosphate (CP) or PCr (Pcr), is a phosphorylated creatine molecule that serves as a rapidly mobilizable reserve of high-energy phosphates in skeletal muscle and the brain to recycle adenosine triphosphate, the energy currency of the cell."
+      },
+      {
+        "passage_id": "doc14377",
+        "title": "Phosphocreatine",
+        "text": "In the kidneys, the enzyme AGAT catalyzes the conversion of two amino acids — arginine and glycine — into guanidinoacetate (also called glycocyamine or GAA), which is then transported in the blood to the liver. A methyl group is added to GAA from the amino acid methionine by the enzyme GAMT, forming non-phosphorylated creatine. This is then dumped into the blood by the liver where it travels mainly to the muscle cells (95% of the body's creatine is in muscles), and to a lesser extent the brain, heart, and pancreas. Once inside the cells it is transformed into phosphocreatine by the enzyme complex creatine kinase, which makes it able to donate its phosphate group to convert adenosine diphosphate (ADP) into adenosine triphosphate (ATP). This process is an important component of all vertebrates' bioenergetic systems. For instance, while the human body only produces 250g of ATP daily, it recycles its entire body weight in ATP each day through creatine phosphate."
+      }
+    ],
+    "manual_judgment": "",
+    "audit_notes": ""
+  },
+  {
+    "beir_query_id": "test506",
+    "question": "who plays the coach in old spice commercial",
+    "answers": [
+      "Isaiah Amir Mustafa"
+    ],
+    "sampling_groups": [
+      "random_accepted"
+    ],
+    "automated_filter_result": "accepted",
+    "relevant_passage_ids": [
+      "doc18536"
+    ],
+    "evidence_passages": [
+      {
+        "passage_id": "doc18536",
+        "title": "Isaiah Mustafa",
+        "text": "Isaiah Amir Mustafa (born February 11, 1974)[1] is an American actor and former NFL practice squad wide receiver.[2] Mustafa is widely known as the main character in the series of Old Spice television commercials, The Man Your Man Could Smell Like. He is also known for portraying Luke Garroway on Freeform's fantasy series Shadowhunters."
+      }
+    ],
+    "manual_judgment": "",
+    "audit_notes": ""
+  },
+  {
+    "beir_query_id": "test549",
+    "question": "who did kenny rogers sing mary did you know with",
+    "answers": [
+      "Wynonna Judd"
+    ],
+    "sampling_groups": [
+      "random_accepted"
+    ],
+    "automated_filter_result": "accepted",
+    "relevant_passage_ids": [
+      "doc20081"
+    ],
+    "evidence_passages": [
+      {
+        "passage_id": "doc20081",
+        "title": "Mary, Did You Know?",
+        "text": "A duet version recorded by Wynonna Judd and Kenny Rogers on Rogers' holiday album The Gift peaked at No. 55 on the Billboard Hot Country Singles & Tracks chart in 1997.[2]"
+      }
+    ],
+    "manual_judgment": "",
+    "audit_notes": ""
+  },
+  {
+    "beir_query_id": "test602",
+    "question": "who were the judges on dancing on ice 2014",
+    "answers": [
+      "Jason Gardiner",
+      "Ashley Roberts",
+      "Robin Cousins",
+      "Karen Barber"
+    ],
+    "sampling_groups": [
+      "random_accepted"
+    ],
+    "automated_filter_result": "accepted",
+    "relevant_passage_ids": [
+      "doc21533"
+    ],
+    "evidence_passages": [
+      {
+        "passage_id": "doc21533",
+        "title": "Dancing on Ice",
+        "text": "Phillip Schofield and Christine Bleakley returned to co-present. Dean, Torvill and Karen Barber returned to mentor the celebrities. Robin Cousins, Jason Gardiner, Barber and Ashley Roberts returned for their respective ninth, eighth, seventh and second series on The Ice Panel. Cousins was absent for weeks 6 and 7 due to commentating the 2014 Winter Olympics, so former judge Nicky Slater returned in his place and Barber was temporary head judge."
+      }
+    ],
+    "manual_judgment": "",
+    "audit_notes": ""
+  },
+  {
+    "beir_query_id": "test603",
+    "question": "where does some like it hot take place",
+    "answers": [
+      "Chicago",
+      "Miami"
+    ],
+    "sampling_groups": [
+      "random_accepted"
+    ],
+    "automated_filter_result": "accepted",
+    "relevant_passage_ids": [
+      "doc21561"
+    ],
+    "evidence_passages": [
+      {
+        "passage_id": "doc21561",
+        "title": "Some Like It Hot",
+        "text": "It is February 1929 in the city of Chicago, during the era of prohibition. Joe (Tony Curtis) is an irresponsible jazz saxophone player, gambler and ladies' man; his friend Jerry (Jack Lemmon) is a sensible jazz double-bass player; both are working in a speakeasy (disguised as a funeral home) owned by mob gangster \"Spats\" Colombo (George Raft). When the joint is raided by the police after being tipped off by informant \"Toothpick\" Charlie (George E. Stone), Joe and Jerry fleeâ€”only to accidentally witness Spats and his henchmen exacting his revenge on \"Toothpick\" and his own gang (inspired by the real-life Saint Valentine's Day Massacre). Penniless and in a mad rush to get out of town, the two musicians take a job with Sweet Sue (Joan Shawlee) and her Society Syncopators, an all-female band headed to Miami. Disguised as women and renaming themselves Josephine and Daphne, they board a train with the band and their male manager, Bienstock. Before they board the train, Joe and Jerry notice Sugar Kane (Marilyn Monroe), the band's vocalist and ukulele player."
+      }
+    ],
+    "manual_judgment": "",
+    "audit_notes": ""
+  },
+  {
+    "beir_query_id": "test658",
+    "question": "by 1914 which of the following african countries were still independent",
+    "answers": [
+      "Liberia",
+      "Ethiopia"
+    ],
+    "sampling_groups": [
+      "random_accepted"
+    ],
+    "automated_filter_result": "accepted",
+    "relevant_passage_ids": [
+      "doc23437"
+    ],
+    "evidence_passages": [
+      {
+        "passage_id": "doc23437",
+        "title": "Scramble for Africa",
+        "text": "Even as late as the 1870s, European states still controlled only ten percent of the African continent, with all their territories located near the coast. The most important holdings were Angola and Mozambique, held by Portugal; the Cape Colony, held by the United Kingdom; and Algeria, held by France. By 1914, only Ethiopia and Liberia remained independent of European control.[5]"
+      }
+    ],
+    "manual_judgment": "",
+    "audit_notes": ""
+  },
+  {
+    "beir_query_id": "test718",
+    "question": "when was the first election held in india",
+    "answers": [
+      "1951–52"
+    ],
+    "sampling_groups": [
+      "rejected"
+    ],
+    "automated_filter_result": "rejected",
+    "relevant_passage_ids": [
+      "doc25685"
+    ],
+    "evidence_passages": [
+      {
+        "passage_id": "doc25685",
+        "title": "Indian general election, 1951–52",
+        "text": "The Indian general election of 1951â€“52 elected the first Lok Sabha since India became independent in August 1947.[1][2][3] Until this point, the Indian Constituent Assembly had served as an interim legislature. See the 'Durations' section below to find the time-range associated with these elections."
+      }
+    ],
+    "manual_judgment": "",
+    "audit_notes": ""
+  },
+  {
+    "beir_query_id": "test834",
+    "question": "what is cain and abel software used for",
+    "answers": [
+      "password recovery"
+    ],
+    "sampling_groups": [
+      "random_accepted"
+    ],
+    "automated_filter_result": "accepted",
+    "relevant_passage_ids": [
+      "doc30155"
+    ],
+    "evidence_passages": [
+      {
+        "passage_id": "doc30155",
+        "title": "Cain and Abel (software)",
+        "text": "Cain and Abel (often abbreviated to Cain) is a password recovery tool for Microsoft Windows. It can recover many kinds of passwords using methods such as network packet sniffing, cracking various password hashes by using methods such as dictionary attacks, brute force and cryptanalysis attacks. Cryptanalysis attacks are done via rainbow tables which can be generated with the winrtgen.exe program provided with Cain and Abel. Cain and Abel is maintained by Massimiliano Montoro and Sean Babcock."
+      }
+    ],
+    "manual_judgment": "",
+    "audit_notes": ""
+  },
+  {
+    "beir_query_id": "test859",
+    "question": "what was the main characteristic of post-world war ii american society",
+    "answers": [
+      "strong economic growth"
+    ],
+    "sampling_groups": [
+      "rejected"
+    ],
+    "automated_filter_result": "rejected",
+    "relevant_passage_ids": [
+      "doc30767"
+    ],
+    "evidence_passages": [
+      {
+        "passage_id": "doc30767",
+        "title": "Post–World War II economic expansion",
+        "text": "$200 billion in war bonds matured, and the G.I. Bill financed a well-educated work force. The middle class swelled, as did GDP and productivity. The US underwent its own golden age of economic growth. This growth was distributed fairly evenly across the economic classes, which some attribute to the strength of labor unions in this period—labor union membership peaked during the 1950s. Much of the growth came from the movement of low-income farm workers into better-paying jobs in the towns and cities—a process largely completed by 1960.[35]"
+      }
+    ],
+    "manual_judgment": "",
+    "audit_notes": ""
+  },
+  {
+    "beir_query_id": "test875",
+    "question": "the names of the beaches on d day",
+    "answers": [
+      "Juno Beach",
+      "Omaha Beach",
+      "Utah Beach",
+      "Gold Beach",
+      "Sword Beach"
+    ],
+    "sampling_groups": [
+      "rejected"
+    ],
+    "automated_filter_result": "rejected",
+    "relevant_passage_ids": [
+      "doc31238"
+    ],
+    "evidence_passages": [
+      {
+        "passage_id": "doc31238",
+        "title": "Normandy landings",
+        "text": "The amphibious landings were preceded by extensive aerial and naval bombardment and an airborne assault—the landing of 24,000 American, British, and Canadian airborne troops shortly after midnight. Allied infantry and armoured divisions began landing on the coast of France at 06:30. The target 50-mile (80 km) stretch of the Normandy coast was divided into five sectors: Utah, Omaha, Gold, Juno, and Sword. Strong winds blew the landing craft east of their intended positions, particularly at Utah and Omaha. The men landed under heavy fire from gun emplacements overlooking the beaches, and the shore was mined and covered with obstacles such as wooden stakes, metal tripods, and barbed wire, making the work of the beach-clearing teams difficult and dangerous. Casualties were heaviest at Omaha, with its high cliffs. At Gold, Juno, and Sword, several fortified towns were cleared in house-to-house fighting, and two major gun emplacements at Gold were disabled, using specialised tanks."
+      }
+    ],
+    "manual_judgment": "",
+    "audit_notes": ""
+  },
+  {
+    "beir_query_id": "test906",
+    "question": "this poster was created to increase support for the war effort.the poster links food rationing to",
+    "answers": [
+      "aiding the war effort"
+    ],
+    "sampling_groups": [
+      "rejected"
+    ],
+    "automated_filter_result": "rejected",
+    "relevant_passage_ids": [
+      "doc32311"
+    ],
+    "evidence_passages": [
+      {
+        "passage_id": "doc32311",
+        "title": "Victory garden",
+        "text": "Amid regular rationing of food in Britain, the United States Department of Agriculture encouraged the planting of victory gardens during the course of World War II. Around one third of the vegetables produced by the United States came from victory gardens.[9] It was emphasized to American home front urbanites and suburbanites that the produce from their gardens would help to lower the price of vegetables needed by the US War Department to feed the troops, thus saving money that could be spent elsewhere on the military: \"Our food is fighting,\" one US poster read.[10] By May 1943, there were 18 million victory gardens in the United States - 12 million in cities and 6 million on farms.[11]"
+      }
+    ],
+    "manual_judgment": "",
+    "audit_notes": ""
+  },
+  {
+    "beir_query_id": "test942",
+    "question": "what is it called when you believe in greek gods",
+    "answers": [
+      "Hellenism",
+      "Hellenic polytheist",
+      "Hellenic Polytheism"
+    ],
+    "sampling_groups": [
+      "random_accepted"
+    ],
+    "automated_filter_result": "accepted",
+    "relevant_passage_ids": [
+      "doc33531",
+      "doc33534",
+      "doc33540",
+      "doc33544"
+    ],
+    "evidence_passages": [
+      {
+        "passage_id": "doc33531",
+        "title": "Hellenism (religion)",
+        "text": "Hellenism (Greek: Ἑλληνισμός), the Hellenic ethnic religion (Ἑλληνικὴ ἐθνική θρησκεία), also commonly known as Hellenismos, Hellenic Polytheism, Dodekatheism (Δωδεκαθεϊσμός), or Olympianism (Ὀλυμπιανισμός), refers to various religious movements that revive or reconstruct ancient Greek religious practices, publicly, emerging since the 1990s."
+      },
+      {
+        "passage_id": "doc33534",
+        "title": "Hellenism (religion)",
+        "text": "There are no official naming practices for this religion, but there does seem to be an informal naming convention, based on academically accepted descriptive definitions, adhered to by groups and most individual believers. Hellenism is the most common term, used chiefly as an identifier for the modern polytheistic religion by its adherents today but it can also refer to the ancient Greek religion and culture.[2] The term originally stems from a systematization and revival of Greek religion done by the Roman Emperor Julian. Julian used the term to describe traditional religion of the Greeks[3] (the word can also have other unrelated meanings in modern Greek). Additionally, subgroups use a variety of names to distinguish branches focusing on specific schools of thought, or modern traditions focusing on the public practices of individual city-states. These subgroups can be described as denominations. Hellenic religion, and Hellenic polytheism can be said to be used interchangeably to refer to the religion, and are synonymous. The phrase Hellenic Polytheistic Reconstructionism refers more to the methodology used by some practitioners to revive a version of the religion, than the religion itself. Not all Hellenic Polytheists are reconstructionists. Dodekatheism and Olympianism are other names, though less commonly used."
+      },
+      {
+        "passage_id": "doc33540",
+        "title": "Hellenism (religion)",
+        "text": "In the United States, the Hellenic polytheist organization Hellenion[23] also identifies its practices as \"Hellenic Pagan Reconstructionism\" and emphasizes historical accuracy in its mission statement.[24] The group uses the term \"Hellenismos\" (Ἑλληνισμός, Hellēnismós) to describe the religion. Hellenion does not provide official membership numbers to the public, but an unofficial estimate of 43 members can be determined for 2007,[25] though this number can only give the roughest approximation, as Hellenion offers hardship waivers to those who cannot afford the typical membership fees.[26] In early 2010, the organization reported 1 demos (fully chartered local congregation) and 6 proto-demoi (start-up congregations not fully chartered with less than 3 members) established, which offer rituals and other events for members and frequently for the public as well.[27] Two of the six proto-demoi cannot be independently verified to exist. Hellenion offers legal clergy training,[28] basic adult religious education classes,[29] and other educational/training courses for its members.[30]"
+      },
+      {
+        "passage_id": "doc33544",
+        "title": "Hellenism (religion)",
+        "text": "Hellenic polytheists worship the ancient Greek Gods, including the Olympians, nature divinities, underworld deities (chthonic gods) and heroes. Both physical and spiritual ancestors are honored. It is primarily a devotional or votive religion, based on the exchange of gifts (offerings) for the gods' blessings.[36] The ethical convictions of modern Hellenic polytheists are often inspired by ancient Greek virtues such as reciprocity, hospitality, self-control and moderation. The Delphic maxims, Tenets of Solon, the Golden Verses of Pythagoras, or even Aristotle's Ethics each function as complete moral codes that a Hellenic Polytheist may observe. Key to most ethical systems is the idea of kharis (or \"charis\", grace), to establish reciprocity between humanity and the gods, between individuals, and among community members.[37][38] Another key value in Hellenic Polytheism is eusebeia, often translated as piety. This implies a commitment to the worship of the Hellenic gods and action to back this up."
+      }
+    ],
+    "manual_judgment": "",
+    "audit_notes": ""
+  },
+  {
+    "beir_query_id": "test946",
+    "question": "who killed barry allen's mom tv show",
+    "answers": [
+      "the Reverse-Flash",
+      "Professor Eobard Thawne"
+    ],
+    "sampling_groups": [
+      "rejected"
+    ],
+    "automated_filter_result": "rejected",
+    "relevant_passage_ids": [
+      "doc33629"
+    ],
+    "evidence_passages": [
+      {
+        "passage_id": "doc33629",
+        "title": "Eobard Thawne",
+        "text": "When Thawne reappears, he murders the revived Johnny Quick,[9] before proceeding to trap Barry and the revived Max Mercury inside the negative Speed Force. Thawne then attempts to kill Wally West's children through their connection to the Speed Force in front of Linda Park-West, only to be stopped by Jay Garrick and Bart Allen. Thawne defeats Jay and prepares to kill Bart, but Barry, Max, Wally, Jesse Quick and Impulse arrive to prevent the villain from doing so.[8][10] In the ensuing fight, Thawne reveals that he is responsible for every tragedy that has occurred in Barry's life, including the death of Nora Allen (Barry's mother). Thawne then decides to destroy everything the Flash holds dear by killing Iris before they even met.[10]"
+      }
+    ],
+    "manual_judgment": "",
+    "audit_notes": ""
+  },
+  {
+    "beir_query_id": "test948",
+    "question": "who was selected for the 2018 football hall of fame",
+    "answers": [
+      "Ray Lewis",
+      "Brian Urlacher",
+      "Jerry Kramer",
+      "Robert Brazile",
+      "Bobby Beathard",
+      "Brian Dawkins",
+      "Randy Moss",
+      "Terrell Owens"
+    ],
+    "sampling_groups": [
+      "multiple_answers"
+    ],
+    "automated_filter_result": "accepted",
+    "relevant_passage_ids": [
+      "doc33654",
+      "doc33680"
+    ],
+    "evidence_passages": [
+      {
+        "passage_id": "doc33654",
+        "title": "Pro Football Hall of Fame",
+        "text": "With the election of the Class of 2018[2] – Bobby Beathard, Robert Brazile, Brian Dawkins, Jerry Kramer, Ray Lewis, Randy Moss, Terrell Owens, and Brian Urlacher – there are a total of 318 members of the Hall of Fame.[3]"
+      },
+      {
+        "passage_id": "doc33680",
+        "title": "Pro Football Hall of Fame",
+        "text": "As the late 2010s approached, a number of controversial and polarizing figures began to reach eligibility for the Hall. Terrell Owens's exclusion from the Hall in his first two years of eligibility despite his strong individual statistics was a subject of public debate.[19] Owens was elected to the Hall of Fame in 2018."
+      }
+    ],
+    "manual_judgment": "",
+    "audit_notes": ""
+  },
+  {
+    "beir_query_id": "test972",
+    "question": "when did sussex split into east and west",
+    "answers": [
+      "1832",
+      "1889"
+    ],
+    "sampling_groups": [
+      "random_accepted"
+    ],
+    "automated_filter_result": "accepted",
+    "relevant_passage_ids": [
+      "doc34216"
+    ],
+    "evidence_passages": [
+      {
+        "passage_id": "doc34216",
+        "title": "History of Sussex",
+        "text": "Since its creation in the fifth century, Sussex has been subject to periodic reform of its local governance. After the Reform Act of 1832 Sussex was divided into the eastern division and the western division, these divisions were coterminous with the two archdeaconries of Chichester and Lewes.:)[6] In 1889, following the Local Government Act 1888, using those same boundaries, Sussex was divided into two administrative counties, East Sussex and West Sussex together with three self-governing county boroughs, Brighton, Eastbourne and Hastings. In 1974, under the Local Government Act 1972, the county boundaries were revised with the mid-Sussex area of East Grinstead, Haywards Heath, Burgess Hill and Hassocks being transferred from East Sussex into West Sussex along with Crawley and the Gatwick area that was formerly part of Surrey. The county boroughs were returned to the control of the two county councils but in 1997 the towns of Brighton and Hove were amalgamated as a unitary local authority and in 2000, Brighton and Hove was given City status.[7] Although it is administered as the two ceremonial counties of East and West Sussex, there continue to be a range of organisations that operate throughout the ancient borders of Sussex such as the Diocese of Chichester, Sussex Police, the Sussex Archaeological Society the Sussex History Society and the Sussex Wildlife Trust."
+      }
+    ],
+    "manual_judgment": "",
+    "audit_notes": ""
+  }
+]

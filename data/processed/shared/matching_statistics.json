@@ -1,0 +1,8 @@
+{
+  "beir_queries": 3452,
+  "nq_open_examples": 3610,
+  "matched_questions": 2255,
+  "unmatched_beir_questions": 1197,
+  "duplicate_normalized_nq_open_questions": 0,
+  "matching_method": "normalized_exact_question_match"
+}

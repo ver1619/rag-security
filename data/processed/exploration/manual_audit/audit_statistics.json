@@ -1,0 +1,86 @@
+{
+    "basic_statistics": {
+        "total_records": 70,
+        "automated_accepted": 50,
+        "automated_rejected": 20,
+        "accepted_percentage": 71.43,
+        "rejected_percentage": 28.57
+    },
+    "manual_classifications": {
+        "ambiguous": {
+            "count": 8,
+            "percentage": 11.43
+        },
+        "incidental_match": {
+            "count": 1,
+            "percentage": 1.43
+        },
+        "missed_valid_evidence": {
+            "count": 11,
+            "percentage": 15.71
+        },
+        "partially_supported": {
+            "count": 15,
+            "percentage": 21.43
+        },
+        "supported": {
+            "count": 35,
+            "percentage": 50.0
+        }
+    },
+    "sampling_group_statistics": {
+        "multiple_answers": {
+            "total_records": 10,
+            "classification_counts": {
+                "partially_supported": 4,
+                "supported": 6
+            }
+        },
+        "random_accepted": {
+            "total_records": 30,
+            "classification_counts": {
+                "supported": 24,
+                "ambiguous": 1,
+                "partially_supported": 5
+            }
+        },
+        "rejected": {
+            "total_records": 20,
+            "classification_counts": {
+                "missed_valid_evidence": 11,
+                "ambiguous": 7,
+                "partially_supported": 2
+            }
+        },
+        "short_answer": {
+            "total_records": 10,
+            "classification_counts": {
+                "supported": 5,
+                "partially_supported": 4,
+                "incidental_match": 1
+            }
+        }
+    },
+    "automated_vs_manual": {
+        "accepted": {
+            "supported": 35,
+            "partially_supported": 13,
+            "ambiguous": 1,
+            "incidental_match": 1
+        },
+        "rejected": {
+            "missed_valid_evidence": 11,
+            "ambiguous": 7,
+            "partially_supported": 2
+        }
+    },
+    "content_statistics": {
+        "total_answer_variants": 129,
+        "average_answer_variants": 1.84,
+        "average_evidence_passages": 1.23,
+        "average_answer_supported_passages": null,
+        "maximum_answer_variants": 8,
+        "maximum_evidence_passages": 4
+    },
+    "methodological_note": "These statistics describe the supplied stratified audit sample only. They must not be interpreted as population-wide precision, recall, or error rates."
+}

@@ -1,0 +1,8 @@
+﻿automated_filter_result,manual_judgment,record_count
+accepted,ambiguous,1
+accepted,incidental_match,1
+accepted,partially_supported,13
+accepted,supported,35
+rejected,ambiguous,7
+rejected,missed_valid_evidence,11
+rejected,partially_supported,2
